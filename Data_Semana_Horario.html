@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <script>
+            //Aqui se cria a variavel para puxar
+            var Data = new Date();
+            //Data=Dia do mês, Month=Mês, FullYear=Ano
+            alert(Data.getDate()+"/"+ Data.getMonth()+ "/"+ Data.getFullYear())
+            //aqui pega dia da semana
+
+            if (Data.getDay()===0){
+            alert("Domingo")
+            }
+            else if (Data.getDay()===1){
+            alert("Segunda")
+            }
+            else if (Data.getDay()===2){
+            alert("Terça")
+            }
+            else if (Data.getDay()===3){
+            alert("Quarta")
+            }
+            else if (Data.getDay()===4){
+            alert("Quinta")
+            }
+            else if (Data.getDay()===5){
+            alert("Sexta")
+            }
+            else if (Data.getDay()===6){
+            alert("Sabado")
+            }
+
+            //por ultimo a hora exata
+            alert(Data.getHours()+"h e "+ Data.getMinutes()+" Minutos")
+        </script>
+    </body>
+</html>
+
